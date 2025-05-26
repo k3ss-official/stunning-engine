@@ -1,0 +1,14 @@
+{
+  "task_id": "T11_Claude_Opus",
+  "expert": "Claude Opus 4",
+  "goal": "Document every step, config, model, and workflow used in the repo as a human-readable, versioned knowledge base. Prepare quickstart and upgrade guides.",
+  "return_format": [
+    "Complete docs in /tasks/T11/output/docs/",
+    "quickstart.md and upgrade.md as primary entrypoints"
+  ],
+  "warnings": [
+    "Docs must be understandable by both technical and non-technical users.",
+    "Ensure all code, models, and endpoints are referenced."
+  ],
+  "context_dump": "Documentation is the single source of truth for onboarding, operation, and future upgrades of the Stunning Engine."
+}

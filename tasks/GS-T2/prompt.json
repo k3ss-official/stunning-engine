@@ -1,0 +1,14 @@
+{
+  "task_id": "GS-T2-Genspark",
+  "expert": "Genspark",
+  "goal": "Download 100–200 high-quality editorial/fashion images covering diverse scenes and poses for training style and context adapters.",
+  "return_format": [
+    "All images in /tasks/GS-T2/output/editorial/scene_###.jpg",
+    "A manifest.csv with: scene_type, location (if available), gender, pose, file_name, source_url"
+  ],
+  "warnings": [
+    "Avoid watermarked or low-res images.",
+    "Images must be cleared for reuse or transformation."
+  ],
+  "context_dump": "These images will anchor our system's adaptability to new client brands and contexts. Organized output enables rapid integration for token and adapter training."
+}

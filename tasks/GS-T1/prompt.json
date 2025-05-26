@@ -1,0 +1,14 @@
+{
+  "task_id": "GS-T1-Genspark",
+  "expert": "Genspark",
+  "goal": "Download 50–100 high-resolution, natural-light, neutral-pose images for each of 5 'anchor' characters (varied age, gender, hair type) for identity token training.",
+  "return_format": [
+    "All images in /tasks/GS-T1/output/anchors/{model_name}/img_###.jpg",
+    "A manifest.csv with columns: model_name, gender, age, file_name, source_url"
+  ],
+  "warnings": [
+    "No duplicate or low-res images.",
+    "Ensure all images are public domain or have valid reuse licenses."
+  ],
+  "context_dump": "This is part of building a SOTA custom image model (Stunning Engine) for the hair/fashion/editorial domain, M4-optimized. Deliver output in the above structure for Manus and downstream Data Ops AI."
+}

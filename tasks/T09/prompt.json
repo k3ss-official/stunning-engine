@@ -1,0 +1,14 @@
+{
+  "task_id": "T09_OAI_4.1",
+  "expert": "OpenAI GPT-4.1",
+  "goal": "Validate the merged/quantized model with baseline and real-world test prompts. Compare sample outputs against prior checkpoints (SD3, Bagel, Janus Pro) and log findings.",
+  "return_format": [
+    "validation_report.md in /tasks/T09/output/",
+    "Test images in /tasks/T09/output/validation/"
+  ],
+  "warnings": [
+    "All comparisons must be done using prompts relevant to project use-cases.",
+    "Document strengths and weaknesses, include at least 3 images per test."
+  ],
+  "context_dump": "Ensures model improvements are tangible and reproducible before deployment to production endpoints."
+}

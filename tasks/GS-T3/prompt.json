@@ -1,0 +1,14 @@
+{
+  "task_id": "GS-T3-Genspark",
+  "expert": "Genspark",
+  "goal": "Download 50–100 candid, 'in action' reference images for 'surprise me' and candid adapter training (e.g., blowing candles, candid smiles, mirror shots, hands with tools, stepping into taxis).",
+  "return_format": [
+    "All images in /tasks/GS-T3/output/candid/candid_###.jpg",
+    "A manifest.csv with: scenario, model demographics, file_name, source_url"
+  ],
+  "warnings": [
+    "Only real, natural moments. No staged or AI-generated fakes.",
+    "Full compliance with rights for dataset inclusion."
+  ],
+  "context_dump": "Candid data boosts model realism and emotional versatility for downstream clients. All outputs will feed into prompt engineering and validation workflows."
+}

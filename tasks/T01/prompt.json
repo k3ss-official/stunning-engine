@@ -1,0 +1,15 @@
+{
+  "task_id": "T01_Manus",
+  "expert": "Manus",
+  "goal": "Bootstrap the 'stunning-engine' repo with the prescribed folder structure, top-level README, and placeholder tasks (GS-T1…T3, T01–T12).",
+  "return_format": [
+    "All folders/files as specified in the project plan.",
+    "README.md summarizing the project, workflow, and M4-first local focus.",
+    "A top-level /tasks directory, each subfolder containing prompt.json for the assigned expert."
+  ],
+  "warnings": [
+    "Do not proceed until Genspark reference images are being gathered.",
+    "Ensure Apache 2.0 license and documentation are present."
+  ],
+  "context_dump": "This repo is ground truth and all experts read from it. Only Manus writes to the repo. All deliverables for subsequent tasks are organized by task ID."
+}

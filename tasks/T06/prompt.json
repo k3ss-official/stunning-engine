@@ -1,0 +1,13 @@
+{
+  "task_id": "T06_Claude_Opus",
+  "expert": "Claude Opus 4",
+  "goal": "Audit all curated/augmented images and manifests for copyright, license compliance, and consent (if needed). Flag or quarantine any image or set with incomplete or ambiguous rights.",
+  "return_format": [
+    "compliance_report.md and flagged_images.csv in /tasks/T06/output/"
+  ],
+  "warnings": [
+    "Missing or ambiguous rights = quarantine until resolved.",
+    "Summarize license type per data source."
+  ],
+  "context_dump": "No data may move to training or deployment unless verified legal for open-source, commercial, or internal use as required."
+}

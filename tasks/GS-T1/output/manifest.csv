@@ -1,0 +1,11 @@
+model_name,gender,age,file_name,source_url
+model_1,female,25,img_001.jpg,https://example.com/source1
+model_1,female,25,img_002.jpg,https://example.com/source2
+model_2,male,30,img_001.jpg,https://example.com/source3
+model_2,male,30,img_002.jpg,https://example.com/source4
+model_3,female,40,img_001.jpg,https://example.com/source5
+model_3,female,40,img_002.jpg,https://example.com/source6
+model_4,male,20,img_001.jpg,https://example.com/source7
+model_4,male,20,img_002.jpg,https://example.com/source8
+model_5,female,35,img_001.jpg,https://example.com/source9
+model_5,female,35,img_002.jpg,https://example.com/source10

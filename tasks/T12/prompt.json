@@ -1,0 +1,13 @@
+{
+  "task_id": "T12_Tony",
+  "expert": "Tony (You)",
+  "goal": "Review, validate, and sign off on all deliverables. Provide feedback, raise issues, and request changes as needed.",
+  "return_format": [
+    "validation_feedback.md in /tasks/T12/output/"
+  ],
+  "warnings": [
+    "All outputs must meet original project objective and functional standards.",
+    "Do not close project until all validation tasks are complete."
+  ],
+  "context_dump": "Your feedback is the final gate before production deployment or upgrade. Sign-off is required for completion."
+}

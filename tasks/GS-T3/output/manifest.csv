@@ -1,0 +1,11 @@
+scenario,model_demographics,file_name,source_url
+blowing_candles,female_20s,candid_001.jpg,https://example.com/source1
+laughing,male_30s,candid_002.jpg,https://example.com/source2
+mirror_shot,female_teens,candid_003.jpg,https://example.com/source3
+hands_with_scissors,male_40s,candid_004.jpg,https://example.com/source4
+entering_taxi,female_30s,candid_005.jpg,https://example.com/source5
+coffee_shop,male_20s,candid_006.jpg,https://example.com/source6
+reading_book,female_40s,candid_007.jpg,https://example.com/source7
+phone_call,male_teens,candid_008.jpg,https://example.com/source8
+shopping,female_20s,candid_009.jpg,https://example.com/source9
+jogging,male_30s,candid_010.jpg,https://example.com/source10

@@ -1,0 +1,14 @@
+{
+  "task_id": "T07_Manus",
+  "expert": "Manus",
+  "goal": "Build and execute PEFT (parameter-efficient fine-tuning) pipelines: train LoRA adapters (editorial, candid, style), run textual inversion for each anchor token (<Julie>, etc.), save checkpoints for each step.",
+  "return_format": [
+    "LoRA and TI checkpoints in /tasks/T07/output/adapters/",
+    "training_log.md with steps, epochs, validation images"
+  ],
+  "warnings": [
+    "All runs must fit within M4 16GB RAM, batch size=1 if needed.",
+    "Do not proceed if data from T06 is not fully cleared."
+  ],
+  "context_dump": "PEFT adapters and tokens are the 'secret sauce'—outputs feed directly to model merge and integration."
+}

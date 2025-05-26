@@ -1,0 +1,14 @@
+{
+  "task_id": "T10_Manus",
+  "expert": "Manus",
+  "goal": "Integrate final model into backend API. Add endpoints for generation, adapter selection, prompt preview, and batch rendering—all M4-optimized.",
+  "return_format": [
+    "Code/scripts in /tasks/T10/output/backend/",
+    "api_docs.md summarizing endpoint usage, parameters, and example calls"
+  ],
+  "warnings": [
+    "Endpoints must work on M4 with no external dependencies.",
+    "Document all environment variables and run instructions."
+  ],
+  "context_dump": "Backend is the production interface for all user-facing tools and clients. Endpoint clarity is crucial for future integrations."
+}

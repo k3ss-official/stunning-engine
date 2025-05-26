@@ -1,0 +1,14 @@
+{
+  "task_id": "T05_Claude_Sonnet",
+  "expert": "Claude Sonnet 4",
+  "goal": "Curate, augment, and organize all source images from Genspark tasks and any user-uploaded photos into the required data structure for training (512×512, properly tagged). Generate manifest files for each subset.",
+  "return_format": [
+    "Augmented/processed images in /tasks/T05/output/{anchor|editorial|candid}/",
+    "manifest.csv for each category: file_name, category, tags, source, any labels"
+  ],
+  "warnings": [
+    "No duplicate, corrupt, or mislabeled images.",
+    "Maintain exact folder and manifest structure for compatibility."
+  ],
+  "context_dump": "Data must be clean, tagged, and balanced for optimal LoRA/textual inversion training. This output is the direct input for adapter/token pipelines."
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "T04_Claude_Opus",
+  "expert": "Claude Opus 4",
+  "goal": "Design and document the full data pipeline schema, annotation/manifest standards, and local storage conventions for all training data, adapters, and checkpoints.",
+  "return_format": [
+    "A schema.yaml and example manifest.csv in /tasks/T04/output/",
+    "PIPELINE.md with end-to-end data flow and folder structure."
+  ],
+  "warnings": [
+    "Keep formats human- and machine-readable.",
+    "Accommodate extensibility for new clients/scenes/models."
+  ],
+  "context_dump": "This schema ensures all training, validation, and future expansion tasks are frictionless and well-documented."
+}

@@ -1,0 +1,11 @@
+scene_type,location,gender,pose,file_name,source_url
+studio,indoor,female,standing,scene_001.jpg,https://example.com/source1
+studio,indoor,male,sitting,scene_002.jpg,https://example.com/source2
+urban,street,female,walking,scene_003.jpg,https://example.com/source3
+urban,street,male,leaning,scene_004.jpg,https://example.com/source4
+salon,indoor,female,profile,scene_005.jpg,https://example.com/source5
+salon,indoor,male,mirror,scene_006.jpg,https://example.com/source6
+beach,outdoor,female,casual,scene_007.jpg,https://example.com/source7
+beach,outdoor,male,action,scene_008.jpg,https://example.com/source8
+restaurant,indoor,female,seated,scene_009.jpg,https://example.com/source9
+restaurant,indoor,male,standing,scene_010.jpg,https://example.com/source10

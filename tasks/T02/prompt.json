@@ -1,0 +1,14 @@
+{
+  "task_id": "T02_Claude_Sonnet",
+  "expert": "Claude Sonnet 4",
+  "goal": "Survey and compare SOTA, M4-compatible image models (SD3 Medium, Bagel, Janus Pro 7B, FLUX.1 VAE), LoRA and textual inversion adapters for performance, fidelity, and local training/serving on Apple Silicon.",
+  "return_format": [
+    "A comparison table in /tasks/T02/output/model_survey.md",
+    "Shortlist of recommended models/adapters with supporting links."
+  ],
+  "warnings": [
+    "Only include models/tech that can be trained and served efficiently on a 16GB M4.",
+    "Highlight any legal/license considerations."
+  ],
+  "context_dump": "This research defines all downstream architecture and adapter design for Stunning Engine. Results will be referenced by all subsequent tasks."
+}

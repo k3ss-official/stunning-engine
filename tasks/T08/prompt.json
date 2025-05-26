@@ -1,0 +1,14 @@
+{
+  "task_id": "T08_Claude_Sonnet",
+  "expert": "Claude Sonnet 4",
+  "goal": "Merge LoRA and TI adapters into the core SD3 Medium backbone. Quantize the final model (4-bit, GGUF or best M4 format) and document performance/compatibility.",
+  "return_format": [
+    "Final model checkpoint(s) in /tasks/T08/output/models/",
+    "integration_notes.md with details on merge/quant process and compatibility"
+  ],
+  "warnings": [
+    "Output checkpoint must run inference on M4 with <12GB RAM.",
+    "Keep a copy of pre-quantized model for backup."
+  ],
+  "context_dump": "Final merged model is deployed for all image generation and downstream use. Quantization is critical for resource efficiency."
+}

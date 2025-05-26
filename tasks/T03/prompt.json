@@ -1,0 +1,14 @@
+{
+  "task_id": "T03_Gemini2.5",
+  "expert": "Gemini 2.5+",
+  "goal": "Script and document the complete M4/MPS local environment setup, including PyTorch, Diffusers, bitsandbytes, and LoRA/textual inversion tooling.",
+  "return_format": [
+    "install.sh and requirements.txt in /tasks/T03/output/",
+    "README.md step-by-step install guide (tested on M4, 16GB+)."
+  ],
+  "warnings": [
+    "Do not include packages that break on MPS.",
+    "Validate all install commands on current macOS."
+  ],
+  "context_dump": "The goal is zero-hassle, reproducible setup for all project contributors. This environment is foundation for training, inference, and validation."
+}
